@@ -22,7 +22,7 @@ int main()
         mov eax,2
         imul a
         imul a
-        sub eax,ecx
+        add eax,ecx
         cdq
         idiv b
         mov a, eax
