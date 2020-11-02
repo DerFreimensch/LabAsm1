@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LabAsm1.cpp" />
+    <ClCompile Include="LabAsm2.cpp" />
     <ClCompile Include="LabAsm3.cpp" />
     <ClCompile Include="LabAsm3NM.cpp" />
   </ItemGroup>
