@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 using namespace std;
 
@@ -26,4 +26,4 @@ int main(void) {
 		cout << j[i] ;
 	}
 	cout << endl;
-}
+}*/
