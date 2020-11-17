@@ -1,7 +1,5 @@
-#include <iostream>
-
+/*#include <iostream>
 using namespace std;
-
 int main() {
 	long int A, B, C;
 	cout << "print A: ";
@@ -57,4 +55,4 @@ int main() {
 		mov C, ecx
 	}
 	cout << "A= " << A << "B= " << B << "C= " << C << endl;
-}
+}*/
