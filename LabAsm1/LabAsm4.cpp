@@ -21,7 +21,7 @@ int main(void) {
 		inc esi
 			cmp esi, 10
 			je ex
-			loop cycle
+			jmp cycle
 		ex:
 	}
 	for (int i = 0; i < 10; i++) {
