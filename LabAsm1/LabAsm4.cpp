@@ -13,13 +13,16 @@ int main(void) {
 		mov eax, j[esi * 4]
 			cmp eax, 0
 			jl lowerthennull
-			jmp next
+			jmp go
 			lowerthennull :
 		imul eax, -2
 			mov j[esi * 4], eax
-			next :
+			go :
 		inc esi
+			cmp esi, 10
+			je ex
 			loop cycle
+			ex:
 
 	}
 	for (int i = 0; i < 10; i++) {
