@@ -13,8 +13,7 @@ int main(void) {
 	}
 		__asm {
 			mov ecx, 1
-			mov ebx, 0
-			xor edx, edx
+			xor ebx, ebx
 			L1 :
 			cmp ebx, C
 				je L2
