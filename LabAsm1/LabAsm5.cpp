@@ -33,9 +33,6 @@ int main(void) {
 				add ebx, 2
 				jmp L1
 				L2 :
-
-
-			//mov B, edx
 		}
 	cout << B << endl;
 	return 0;
