@@ -146,6 +146,8 @@
     <ClCompile Include="LabAsm4.cpp" />
     <ClCompile Include="LabAsm5.cpp" />
     <ClCompile Include="LabAsm5NM.cpp" />
+    <ClCompile Include="LabAsm5NM1.cpp" />
+    <ClCompile Include="LabAsm5NMVr2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

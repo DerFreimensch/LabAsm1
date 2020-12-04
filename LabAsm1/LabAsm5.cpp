@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 
 using namespace std;
 
@@ -7,17 +7,24 @@ int main(void) {
 	unsigned long B = 0, C;
 	cin >> A;
 	if (A < 65535) {
-		C = 16;
+		C = 2;
 	}else{
-		C = 32;
+		C = 4;
 	}
 		__asm {
+			mov eax,0
 			mov ecx, 1
 			mov ebx, 0
 			xor edx, edx
 			L1 :
-			cmp ebx, C
+			cmp eax, C
 				je L2
+			cmp ebx, 8
+				jne ent
+				add eax, 1
+				mov ecx, 1
+				mov ebx, 0
+				ent:
 				bt A, ecx
 				
 				jc cf1
@@ -40,4 +47,4 @@ int main(void) {
 		}
 	cout << B << endl;
 	return 0;
-}
+}*/
